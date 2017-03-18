@@ -48,6 +48,9 @@
 		AC70C4F81E743C94005E598A /* TheaterAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70C4F71E743C94005E598A /* TheaterAnnotation.swift */; };
 		AC70C4FC1E747752005E598A /* fiap.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AC70C4FB1E747752005E598A /* fiap.gpx */; };
 		AC70C4FE1E748175005E598A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70C4FD1E748175005E598A /* WebViewController.swift */; };
+		ACCF57D51E7C9FC800AC4D88 /* MovieRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF57D41E7C9FC800AC4D88 /* MovieRegisterViewController.swift */; };
+		ACCF57D81E7CA2E900AC4D88 /* MoviesLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACCF57D61E7CA2E900AC4D88 /* MoviesLib.xcdatamodeld */; };
+		ACCF57DA1E7CABA000AC4D88 /* UiViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF57D91E7CABA000AC4D88 /* UiViewController+CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +97,9 @@
 		AC70C4F71E743C94005E598A /* TheaterAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheaterAnnotation.swift; sourceTree = "<group>"; };
 		AC70C4FB1E747752005E598A /* fiap.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fiap.gpx; sourceTree = "<group>"; };
 		AC70C4FD1E748175005E598A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		ACCF57D41E7C9FC800AC4D88 /* MovieRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRegisterViewController.swift; sourceTree = "<group>"; };
+		ACCF57D71E7CA2E900AC4D88 /* MoviesLib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoviesLib.xcdatamodel; sourceTree = "<group>"; };
+		ACCF57D91E7CABA000AC4D88 /* UiViewController+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiViewController+CoreData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				07780D4C1E6D860E00BC3630 /* AppDelegate.swift */,
+				ACCF57D91E7CABA000AC4D88 /* UiViewController+CoreData.swift */,
 				AC64CEEF1E70C99900FD5EFF /* images */,
 				AC70C4F41E74236C005E598A /* data */,
 				AC70C4F21E7422FE005E598A /* Movie */,
@@ -136,6 +143,7 @@
 				07780D531E6D860E00BC3630 /* Assets.xcassets */,
 				07780D551E6D860E00BC3630 /* LaunchScreen.storyboard */,
 				07780D581E6D860E00BC3630 /* Info.plist */,
+				ACCF57D61E7CA2E900AC4D88 /* MoviesLib.xcdatamodeld */,
 			);
 			path = MoviesLib;
 			sourceTree = "<group>";
@@ -180,6 +188,7 @@
 				AC64CEF21E70DA9E00FD5EFF /* MovieTableViewCell.swift */,
 				AC64CE801E70BCAA00FD5EFF /* MoviesTableViewController.swift */,
 				07780D4E1E6D860E00BC3630 /* MovieViewController.swift */,
+				ACCF57D41E7C9FC800AC4D88 /* MovieRegisterViewController.swift */,
 			);
 			name = Movie;
 			sourceTree = "<group>";
@@ -308,10 +317,13 @@
 				AC64CEF31E70DA9E00FD5EFF /* MovieTableViewCell.swift in Sources */,
 				AC70C4FE1E748175005E598A /* WebViewController.swift in Sources */,
 				AC64CE811E70BCAA00FD5EFF /* MoviesTableViewController.swift in Sources */,
+				ACCF57D81E7CA2E900AC4D88 /* MoviesLib.xcdatamodeld in Sources */,
 				AC70C4F81E743C94005E598A /* TheaterAnnotation.swift in Sources */,
+				ACCF57D51E7C9FC800AC4D88 /* MovieRegisterViewController.swift in Sources */,
 				AC70C4F61E742784005E598A /* Theater.swift in Sources */,
 				07780D4F1E6D860E00BC3630 /* MovieViewController.swift in Sources */,
 				AC64CEF11E70CA2400FD5EFF /* MovieOld.swift in Sources */,
+				ACCF57DA1E7CABA000AC4D88 /* UiViewController+CoreData.swift in Sources */,
 				07780D4D1E6D860E00BC3630 /* AppDelegate.swift in Sources */,
 				AC70C4F11E74225E005E598A /* TheatersMapViewController.swift in Sources */,
 			);
@@ -476,6 +488,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACCF57D61E7CA2E900AC4D88 /* MoviesLib.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACCF57D71E7CA2E900AC4D88 /* MoviesLib.xcdatamodel */,
+			);
+			currentVersion = ACCF57D71E7CA2E900AC4D88 /* MoviesLib.xcdatamodel */;
+			path = MoviesLib.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 07780D411E6D860E00BC3630 /* Project object */;
 }
